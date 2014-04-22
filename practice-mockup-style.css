@@ -2,10 +2,37 @@
 	border: 1px solid red
 }
 
-nav ul {
-	float: left;
+li {
+	list-style-type: none;
 }
 
+nav {
+	background-color: white;
+}
+
+nav ul li{
+	float: left;
+	margin-right: 40px;
+	font-family: Arial;
+	font-size: medium;
+	padding-top: 15px;
+}
+
+nav img {
+	margin-top: -19px;
+}
+
+nav ul li:hover {
+	color: red;
+}
 nav div {
 	float: right;
+	margin-top: -10px;
+	margin-right: 70px;
+	font-family: Arial;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 8px 7px 8px 7px;
+	border-color: #e0e0e0;
 }
+
