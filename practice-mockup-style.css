@@ -55,6 +55,7 @@ nav div {
 	width: 400px;
 	background: white;
 	float: left;
+	margin-bottom: 30px;
 }
 
 .center {
@@ -68,9 +69,13 @@ aside {
 }
 
 footer {
-	position: relative;
 	background-color: white;
 	height: 100px;
 	clear: both;
+	margin-top: 30px;
+}
+
+footer li {
+	float: left;
 }
 
