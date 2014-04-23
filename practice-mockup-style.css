@@ -108,12 +108,27 @@ nav ul li:hover {
 }
 
 hr {
-	background-color: #f2f2f2;
 	clear: both;
-	width: 100%;
-	height: .05em;
 	border: 0;
+	height: 0;
+	border-top: 0.1em solid #f2f2f2;
+
 }
+
+.main ul {
+	color: #b1b1b4;
+	padding-left: 0;
+	margin-left: 2em;
+	padding-bottom: 1em;
+}
+
+.main ul li {
+	float: left;
+}
+
+/*a {
+	margin
+}*/
 
 aside {
 	float: left;
