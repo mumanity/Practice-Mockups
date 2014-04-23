@@ -126,9 +126,16 @@ hr {
 	float: left;
 }
 
-/*a {
-	margin
-}*/
+a {
+	margin-left: 2em;
+	color: #0574d3;
+	/*font-weight: 600;*/
+	font-size: 1em;
+}
+
+a:hover {
+	text-decoration: none;
+}
 
 aside {
 	float: left;
