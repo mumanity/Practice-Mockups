@@ -1,10 +1,13 @@
 
+
+
 body {
 	background: url("images/background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 0;
 	margin: 0;
+	font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
 li {
@@ -35,7 +38,6 @@ nav {
 
 nav ul li{
 	float: left;
-	font-family: proxima-nova, Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	margin-right: 2.15em;
 	margin-top: 1.95em;
@@ -45,7 +47,6 @@ nav ul li{
 	float: right;
 	margin-top: 1.3em;
 	margin-right: 6.8em;
-	font-family: proxima-nova, Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	border-radius: 5px;
 	border: 1px solid #e0e0e0;
@@ -58,16 +59,48 @@ nav ul li:hover {
 
 .main {
 	height: 18em;
-	width: 25em;
+	width: 27.7em;
 	background: white;
 	float: left;
+	padding: 0;
 }
 
 .center {
 	clear: both;
 	height: 40em;
-	padding-top: 16.75em;
+	padding-top: 16.7em;
 	padding-left: 7.5em;
+}
+
+#countertop {
+	margin-left: 3em;
+}
+
+#counter {
+	float: left;
+	margin-top: 0;
+}
+
+#timer {
+	color: #e41a24;
+	font-size: 2.5em;
+	font-weight: lighter;
+
+}
+
+#read {
+	font-weight:
+}
+
+#stop-button {
+	float: right;
+	background-color: #f2f2f2;
+}
+
+hr {
+	background-color: #f2f2f2;
+	clear: both;
+	width: 100%;
 }
 
 aside {
@@ -92,6 +125,6 @@ footer li {
 }
 
 #footerbarright {
-	float: right;
+	float: left;
 }
 
