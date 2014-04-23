@@ -50,3 +50,27 @@ nav div {
 	border-color: #e0e0e0;
 }
 
+.main {
+	height: 300px;
+	width: 400px;
+	background: white;
+	float: left;
+}
+
+.center {
+	clear: both;
+	margin-top: 140px;
+	margin-left: 100px;
+}
+
+aside {
+	float: left;
+}
+
+footer {
+	position: relative;
+	background-color: white;
+	height: 100px;
+	clear: both;
+}
+
