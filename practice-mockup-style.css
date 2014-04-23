@@ -1,6 +1,5 @@
 
 
-
 body {
 	background: url("images/background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -67,8 +66,10 @@ nav ul li:hover {
 
 .center {
 	clear: both;
-	height: 40em;
+	height: 30em;
 	padding-top: 16.7em;
+	margin-bottom: 0;
+	padding-bottom: 0;
 	padding-left: 7.5em;
 }
 
@@ -135,6 +136,12 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+.numbers {
+	float: right;
+	position: relative;
+	margin-right: 1.75em;
 }
 
 aside {
