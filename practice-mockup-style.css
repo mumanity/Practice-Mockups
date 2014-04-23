@@ -26,14 +26,15 @@ nav {
 
 #logo {
 	float: left;
-	margin-left: 6em;
+	margin-left: 5.4em;
 	border: none;
-	margin-top: 1.8em;
-	margin-right: 1.8em;
+	margin-top: 1.6em;
+	margin-right: 1.5em;
 }
 
 #logo img {
 	height: 3.5em;
+	font-size: .87em;
 }
 
 nav ul li{
@@ -44,18 +45,12 @@ nav ul li{
 	margin-top: 1.95em;
 }
 
+#login-button {
+	padding-top: 2em;
+}
 
 nav ul li:hover {
 	color: red;
-}
-
-nav div {
-	float: right;
-	font-family: Arial;
-	font-size: 14px;
-	font-style: thin;
-	border-radius: 5px;
-	border-color: #e0e0e0;
 }
 
 .main {
