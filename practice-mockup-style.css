@@ -46,7 +46,14 @@ nav ul li{
 }
 
 #login-button {
-	padding-top: 2em;
+	float: right;
+	margin-top: 1.3em;
+	margin-right: 6.8em;
+	font-family: proxima-nova, Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	border-radius: 5px;
+	border: 1px solid #e0e0e0;
+	padding: 8px 10px;
 }
 
 nav ul li:hover {
