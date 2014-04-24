@@ -1,0 +1,216 @@
+
+
+body {
+  background: url("images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: proxima-nova, Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  text-align: center;
+  background-color: white;
+  height: 6.5em;
+  position: absolute;
+  border: none;
+  width: 100%;
+}
+
+#logo {
+  float: left;
+  margin-left: 5.4em;
+  border: none;
+  margin-top: 1.6em;
+  margin-right: 1.5em;
+}
+
+#logo img {
+  height: 3.5em;
+  font-size: .87em;
+}
+
+nav ul li{
+  float: left;
+  font-size: 0.9em;
+  margin-right: 2.15em;
+  margin-top: 1.95em;
+}
+
+#login-button {
+  float: right;
+  margin-top: 1.3em;
+  margin-right: 6.8em;
+  font-size: 0.9em;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 8px 10px;
+}
+
+nav ul li:hover {
+  color: red;
+}
+
+.main {
+  height: 18em;
+  width: 27.7em;
+  background: white;
+  float: left;
+  padding: 0;
+}
+
+.center {
+  clear: both;
+  height: 27em;
+  padding-top: 16.7em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 7.5em;
+}
+
+#countertop {
+  margin-left: 2em;
+  margin-top: .3em;
+}
+
+#counter {
+  float: left;
+  margin-top: 0;
+  padding-bottom: .7em;
+}
+
+#timer {
+  color: #e41a24;
+  font-size: 2.4em;
+  font-weight: lighter;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#read {
+  font-size: 1.4em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#stop-button {
+  float: right;
+  background-color: #f2f2f2;
+  padding: 1.25em 1.7em;
+  border-radius: 3px;
+  margin-top: 2.75em;
+  margin-right: 1.75em;
+  color: #5f5f5f;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  height: 0;
+  border-top: 0.1em solid #f2f2f2;
+}
+
+.main ul {
+  color: #b1b1b4;
+  padding-left: 0;
+  margin-left: 2em;
+  padding-bottom: 1em;
+}
+
+.main ul li {
+  float: left;
+}
+
+a {
+  margin-left: 2em;
+  color: #0574d3;
+  /*font-weight: 600;*/
+  font-size: 1em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.numbers {
+  float: right;
+  position: relative;
+  margin-right: 1.75em;
+}
+
+aside {
+  float: left;
+}
+
+/*------- FOOTER ------------------------------------*/
+
+footer {
+  background-color: white;
+  clear: both;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 4em;
+  padding-top: 0;
+  font-size: .91em;
+}
+
+footer li {
+  float: left;
+}
+
+#foot {
+  margin-top: 4.1em;
+  padding-bottom: .15em;
+}
+
+#images {
+  margin-top: 0;
+  padding-top: 2em;
+}
+
+#images img {
+  padding-top: 0;
+}
+
+#footerbar {
+  font-size: .87em;
+  margin-left: 4em;
+  color: #bfbfbf;
+}
+
+#footerbar li {
+  margin-right: 2.7em;
+}
+
+#copywright {
+  font-size: 1.05em;
+  color: black;
+}
+
+#footerbarright {
+  font-size: .89em;
+  float: right;
+  margin-right: 5em;
+}
+
+#footerbarright li {
+  margin-right: 1.5em;
+  padding-bottom: 1em;
+}
+
+#team {
+  color: #4aa506;
+}
+
+#love {
+  margin-top: 1.27em;
+  margin-right: 1.7em;
+  margin-left: 12.7em;
+}
+
+
