@@ -345,6 +345,7 @@ aside {
   float: left;
   background-color: #211f1d;
   color: #57ac35;
+  padding: 2em;
 }
 
 #tour:hover {
